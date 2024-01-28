@@ -2,7 +2,7 @@
 import { check } from "aoc-util"
 import _ from "lodash"
 
-const file = Bun.file("01/input.txt")
+const file = Bun.file(`${import.meta.dir}/input.txt`)
 const input = await file.text()
 const lines: string[] = input.split('\n')
 
